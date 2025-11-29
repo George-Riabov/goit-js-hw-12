@@ -44,10 +44,6 @@
   }
 }
 
-.is-hidden {
-  display: none;
-}
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -86,4 +82,24 @@
 .gallery-info p {
   margin: 0;
   line-height: 1.2;
+}
+
+.load-more-btn {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 24px;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+
+  background-color: #4169e1; /* синя, як на макеті */
+  border: none;
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+.is-hidden {
+  display: none;
 }
